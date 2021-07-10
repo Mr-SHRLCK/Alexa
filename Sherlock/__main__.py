@@ -36,7 +36,11 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="💫 Add alexa in your group 💫", url="http://t.me/Xalexa_robot?startgroup=true"
+                        text="💫 SUPPORT 💫", url="https://t.me/Rajasthan_study_quiz_group"),
+
+InlineKeyboardButton(
+                        text="💫 Owner 💫", url="@k7_S_boy"
+
                     )
                 ]
             ]
@@ -55,7 +59,7 @@ async def help(client, message):
     text = "Syntax: /song song name"
     await message.reply(text)
 
-OWNER_ID.append(1587091205)
+OWNER_ID.append(1739354647)
 app.start()
 LOGGER.info("Your bot is now online.")
 idle()
